@@ -1,0 +1,13 @@
+/build/
+/debug/
+/dist/
+/queuelogs/
+/*.err
+/*.bak
+/*.tmp
+/*.log
+/*.inx
+/nbproject/Makefile-*
+/nbproject/Package-*
+/nbproject/*Kopie.xml
+/nbproject/private/
