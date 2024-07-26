@@ -10,6 +10,9 @@
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>.</sourceRootElem>
+                <sourceRootElem>../_C_LIB/THU/LCD</sourceRootElem>
+                <sourceRootElem>../_C_LIB/THU/PLIB</sourceRootElem>
+                <sourceRootElem>../_C_LIB/THU/uCQuick</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

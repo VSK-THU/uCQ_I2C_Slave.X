@@ -5,7 +5,9 @@
                    displayName="Header Files"
                    projectFiles="true">
       <logicalFolder name="f1" displayName="LIB" projectFiles="true">
-        <itemPath>../../C-LIB/HS-Ulm/LCD/GLCDnokia.h</itemPath>
+        <itemPath>../_C_LIB/THU/LCD/GLCDnokia.h</itemPath>
+        <itemPath>../_C_LIB/THU/PLIB/plib18fxxk22.h</itemPath>
+        <itemPath>../_C_LIB/THU/uCQuick/uCQ_2018.h</itemPath>
       </logicalFolder>
       <itemPath>i2c_intr.h</itemPath>
       <itemPath>i2c_device.h</itemPath>
@@ -25,11 +27,11 @@
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="f1" displayName="LIB" projectFiles="true">
-        <itemPath>../../C-LIB/HS-Ulm/LCD/charSet16x7.c</itemPath>
-        <itemPath>../../C-LIB/HS-Ulm/LCD/charSet8x5.c</itemPath>
-        <itemPath>../../C-LIB/HS-Ulm/LCD/GLCDnokia.c</itemPath>
-        <itemPath>../../C-LIB/HS-Ulm/LCD/hsulm_logo.c</itemPath>
-        <itemPath>../../C-LIB/HS-Ulm/PLIB/plib18fxxk22.c</itemPath>
+        <itemPath>../_C_LIB/THU/LCD/GLCDnokia.c</itemPath>
+        <itemPath>../_C_LIB/THU/LCD/charSet16x7.c</itemPath>
+        <itemPath>../_C_LIB/THU/LCD/charSet8x5.c</itemPath>
+        <itemPath>../_C_LIB/THU/LCD/hsulm_logo.c</itemPath>
+        <itemPath>../_C_LIB/THU/PLIB/plib18fxxk22.c</itemPath>
       </logicalFolder>
       <itemPath>uCQ_i2c_slave_main.c</itemPath>
       <itemPath>i2c_intr.c</itemPath>
@@ -39,6 +41,9 @@
   </logicalFolder>
   <sourceRootList>
     <Elem>.</Elem>
+    <Elem>../_C_LIB/THU/LCD</Elem>
+    <Elem>../_C_LIB/THU/PLIB</Elem>
+    <Elem>../_C_LIB/THU/uCQuick</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -91,7 +96,7 @@
         <property key="default-char-type" value="true"/>
         <property key="define-macros" value=""/>
         <property key="disable-optimizations" value="true"/>
-        <property key="extra-include-directories" value="..\..\C-LIB\HS-Ulm;.\"/>
+        <property key="extra-include-directories" value="..\_C_LIB\THU;.\"/>
         <property key="favor-optimization-for" value="-speed,+space"/>
         <property key="garbage-collect-data" value="true"/>
         <property key="garbage-collect-functions" value="true"/>
@@ -293,6 +298,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="true"/>
+        <property key="programmerToGoFilePath"
+                  value="I:/INFO/LIB/uC_LIB/Demo_Projekte/uCQ_I2C_Slave.X/debug/default/uCQ_I2C_Slave_ptg"/>
         <property key="programmerToGoImageName" value="uCQ_I2C_Slave_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
